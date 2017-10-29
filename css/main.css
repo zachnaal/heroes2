@@ -1,0 +1,67 @@
+body{
+	margin:0;
+}
+ul{
+	padding:10;
+	font-size: 30px;
+	height:60px;
+	text-align: center;
+
+}
+h1{
+	color: orange;
+	font-family: comic sans MS
+}
+
+h2{
+	color: orange;
+	font-family: comic sans MS
+}
+nav.navigation{
+	background-color:orange;
+	padding:15px;
+}
+.navigation li{
+	display:inline-block;
+	position: relative;
+	left:0px;
+	}
+	a{
+		color:#191a21;
+		position: relative;
+		padding: 10px;
+		text-decoration: none;
+		font-family: "comic sans MS"
+
+	}
+	a:hover{
+		background-color:#191a21;
+		color:orange;
+	}
+section{
+	background-color: #191a21;
+	text-align: center;
+	display: table-row;
+}
+.box{
+	float:left;
+	width: 33.3%
+}
+.box img {
+	height:400px;
+	width: 400px;
+	object-fit: cover;
+}
+img:hover{
+	opacity: 0.5;
+}
+p{ 
+	color: black;
+	background-color:lightblue;
+	border: 5px solid black;
+	display: center;
+	height: 130px;
+	margin: 10px;
+	font-family: comic sans MS
+
+}
